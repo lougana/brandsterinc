@@ -5,7 +5,7 @@
  is the file you need to edit to change the look of the
  theme.
  However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -245,7 +245,7 @@ p ins { color: #999; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
 /* =============================================
-                        Global Elements 
+                        Global Elements
 ============================================= */
 .tg-haslayout{
     width:100%;
@@ -555,11 +555,11 @@ address { font-style: italic; }
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"]{ padding-right: 0; padding-left: 0;}*/
 /* =============================================
-                        Main Style 
+                        Main Style
 ============================================= */
 #wrapper{overflow:hidden;}
 /* =============================================
-                        Header Style 
+                        Header Style
 ============================================= */
 #header.affix-top{background:rgba(255,255,255,0.6);}
 body.home #header{
@@ -711,7 +711,7 @@ body.home #nav ul{ padding: 5px 0 0;}
     z-index:4;
 }
 /* =============================================
-                        Home Slider Style 
+                        Home Slider Style
 ============================================= */
 .home-slider{}
 .home-slider img{
@@ -730,6 +730,7 @@ body.home #nav ul{ padding: 5px 0 0;}
     width: 100%;
 }
 .home-slider .item .tg-banner-content{
+    display: none;
     width: 370px;
     position: absolute;
     top: 50%;
@@ -807,7 +808,7 @@ body.home #nav ul{ padding: 5px 0 0;}
     width: 10px;
     margin: -40px 0 0 0;
 }
-.bx-controls .bx-pager{ 
+.bx-controls .bx-pager{
     position: relative;
     z-index: 2;
 }
@@ -850,7 +851,7 @@ body.home #nav ul{ padding: 5px 0 0;}
 .bx-controls .bx-controls-direction .bx-next:hover{ border-top-color: #272727;}
 
 /* =============================================
-                        Main Style 
+                        Main Style
 ============================================= */
 body.home #main{ padding:20px 0;}
 #main{ padding:20px 0 0;}
@@ -933,7 +934,7 @@ body.home #main{ padding:20px 0;}
 }
 .tg-virtuallybuild .tg-description{ padding:0 0 20px;}
 .tg-virtuallybuild .tg-description p{ margin:0;}
-.tg-btn-box a:first-child{ 
+.tg-btn-box a:first-child{
     float:left;
     margin-right: 30px;
 }
@@ -1170,7 +1171,7 @@ ul.gallery-cats:after{
 .tg-post{
     width:100%;
     float:left;
-    position:relative;	
+    position:relative;
 }
 .tg-posts .item{
     float:left;
@@ -1436,7 +1437,7 @@ form .form-group .forgetpassword i,
 /* =============================================
                         Innar Pages Style
 ============================================= */
-.tg-banner{ 
+.tg-banner{
     position:relative;
     height:150px;
 }
@@ -2077,7 +2078,7 @@ body.comingsoon-page .comming-soon h2{
 }
 .col-info{
     width:100%;
-    height:50px; 
+    height:50px;
     padding:15px 0;
     background:#fff;
     border-top:3px solid;
@@ -2783,7 +2784,7 @@ body.version-two .navigation-area .add-nav{
     font-style: normal;
     text-transform: capitalize;
 }
-.gn-menu-main li .gn-menu li a:hover{ 
+.gn-menu-main li .gn-menu li a:hover{
     color: #272727;
     line-height: 1px;
 }
@@ -2902,7 +2903,7 @@ body.version-two .current-menu-item a i:before {line-height: 65px !important;}
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     -webkit-animation: animate 2s infinite;
-    animation: animate 2s infinite;	
+    animation: animate 2s infinite;
 }
 #object_one{
     left: 75px;
@@ -2936,26 +2937,26 @@ body.version-two .current-menu-item a i:before {line-height: 65px !important;}
 }
 @-webkit-keyframes animate {
     50% {
-        -ms-transform: rotate(180deg); 
-        -webkit-transform: rotate(180deg); 
-        transform: rotate(180deg); 
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
     }
     100% {
-        -ms-transform: rotate(0deg); 
-        -webkit-transform: rotate(0deg); 
-        transform: rotate(0deg); 
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 }
 @keyframes animate {
     50% {
-        -ms-transform: rotate(180deg); 
-        -webkit-transform: rotate(180deg); 
-        transform: rotate(180deg); 
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
     }
     100% {
-        -ms-transform: rotate(0deg); 
-        -webkit-transform: rotate(0deg); 
-        transform: rotate(0deg); 
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 }
 .message_contact{
