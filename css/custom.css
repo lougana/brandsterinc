@@ -1,0 +1,17 @@
+/************************
+  About Brandster
+************************/
+
+#top-content .col-lg-4 p {
+  text-align: center;
+}
+
+#top-content .col-lg-4 img {
+  display: block;
+  margin: 0 auto;
+}
+
+#top-content .col-lg-4 span {
+  display: block;
+  text-align: center;
+}
