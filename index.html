@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/color.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="js/snap.svg-min.js"></script>
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -206,7 +207,7 @@
 			<!--************************************
 					Virtually Build Start
 			*************************************-->
-			<section class="tg-main-section tg-haslayout parallax-window" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax-img/bg-parallax-01.jpg">
+			<!-- <section class="tg-main-section tg-haslayout parallax-window" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax-img/bg-parallax-01.jpg">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-7 tg-displayinlineblock">
@@ -232,10 +233,11 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!--************************************
 					Virtually Build End
 			*************************************-->
+
 			<!--************************************
 					Portfolio Start
 			*************************************-->
@@ -622,66 +624,163 @@
 			<!--************************************
 					Portfolio End
 			*************************************-->
-			<!--************************************
-					Testimonials Start
-			*************************************-->
-			<section class="tg-main-section tg-haslayout testimonial-image">
-				<div class="container">
-					<div class="row">
-						<div class="tg-testimonials tg-haslayout">
-							<div class="col-sm-5">
-								<div class="tg-testimonials-img">
-									<figure><img src="images/img-02.png" alt="image description"></figure>
-								</div>
-							</div>
-							<div class="col-lg-5 col-md-7 col-sm-7">
-								<div id="tg-testi-slider" class="tg-testi-slider">
-									<div class="item">
-										<div class="tg-theme-heading">
-											<span>our happy customers</span>
-											<h2>Mr. David <span>&amp; Family</span></h2>
-										</div>
-										<div class="tg-description">
-											<blockquote>
-												<q>Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam.</q>
-											</blockquote>
-										</div>
-									</div>
-									<div class="item">
-										<div class="tg-theme-heading">
-											<span>our happy customers</span>
-											<h2>Mr. David <span>&amp; Family</span></h2>
-										</div>
-										<div class="tg-description">
-											<blockquote>
-												<q>Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam.</q>
-											</blockquote>
-										</div>
-									</div>
-									<div class="item">
-										<div class="tg-theme-heading">
-											<span>our happy customers</span>
-											<h2>Mr. David <span>&amp; Family</span></h2>
-										</div>
-										<div class="tg-description">
-											<blockquote>
-												<q>Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam.</q>
-											</blockquote>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
+			<!--**********************************
+			   Start Flexslider Testimonials
+			***********************************-->
+			<section class="tg-main-section tg-haslayout testimonials">
+				<!-- cd-testimonials-wrapper Start -->
+				<div class="cd-testimonials-wrapper cd-container">
+				  <ul class="cd-testimonials">
+				    <li>
+				      <p>"We had just built a new patio and the range of options for the composite chairs was excellent. We decided on the Coastal Adirondack Chairs. We combined the Weatherwood (Backs and Seats) and the Black (Arms/Legs). We are so satisfied, we are placing an order for 8-10 more this summer for our mothers house in NY.Incredibly durable and getting them was made so easy. Thanks Paul!!!!"</p>
+				      <div class="cd-author">
+				        <ul class="cd-author-info">
+				          <li>Randy B</li>
+				          <li>IL, United States <em>16 Jul 2015</em></li>
+				        </ul>
+				      </div>
+				    </li>
+				    <li>
+				      <p>"I was glad to find a place to get an umbrella with the same fabric as my chair cushions. I couldn't find one to match at the stores I visited. It was a very smooth process. It took longer to get because it was a custom fabric."</p>
+				      <div class="cd-author">
+				        <ul class="cd-author-info">
+				          <li>Deborah Van D</li>
+				          <li>CA, United States <em>09 Jun 2015</em></li>
+				        </ul>
+				      </div>
+				    </li>
+				    <li>
+				        <p>"I would highly recommend shopping with Brandster! Products are the real deal, customer service is wonderful and the prices are amazing! I saved over $1000 off the price I was quoted at my local store."</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>SC, United States <em>22 Apr 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				    <li>
+				      <p>"Paul Gioia was so helpful. I was worried when the carton came damaged Paul was quick to assure me they would replace any damaged pieces. As it turned out there was no damage but it is reassuring to know it would have been taken care of with no hassle. Paul was so nice and very responsive to all my questions. Love the furniture."</p>
+				      <div class="cd-author">
+				        <ul class="cd-author-info">
+				          <li>Markee</li>
+				          <li><em>16 Jun 2015</em></li>
+				        </ul>
+				      </div>
+				    </li>
+				    <li>
+				      <p>"Paul was awesome, answered all questions and followed up to make sure everything arrived quickly and that we were happy. Our patio looks perfect, chairs are super comfy and we would purchase again!"</p>
+				      <div class="cd-author">
+				        <ul class="cd-author-info">
+				          <li>Beverly and Mike</li>
+				          <li><em>09 Aug 2015</em></li>
+				        </ul>
+				      </div>
+				    </li>
+				    <li>
+				      <p>"Great Customer Service. My package arrived torn a bit from shipping, but of course it is near impossible to damage the breezesta products but the package with the hardware must have fallen out. I called Brandster and they immediately sent out a replacement package of hardware. Very satisfied with the whole experience."</p>
+				      <div class="cd-author">
+				        <ul class="cd-author-info">
+				          <li>Paul</li>
+				          <li>NY, United States <em>12 Jun 2015</em></li>
+				        </ul>
+				      </div>
+				    </li>
+				    <li>
+				      <p>"Paul was extremely helpful. I ordered several items for our main house and an additional 7items for our farm home. I'm now needing to order 5 to 7 additional items for our farm house and main house...just seems I didn't get enough. They are easy to assemble and I'm a 56/year old woman. Need help to carry the table to the porch after assembly, only because of the weight and size. I loved working with Paul G. He assisted me with a couple measurements so I could make decisions...he was very knowledgeable and timely .I had a very good experience. Thanks to Paul. Sincerely, Lori"</p>
+				      <div class="cd-author">
+				        <ul class="cd-author-info">
+				          <li>Lori F</li>
+				          <li>MN, United States <em>06 May 2015</em></li>
+				        </ul>
+				      </div> <!-- cd-author -->
+				    </li>
+				  </ul> <!-- cd-testimonials -->
+				    <a href="http://www.shopperapproved.com/reviews/Brandster.com/" target="_blank" rel="nofollow" onclick="return sa_openurl(this.href);"><img style="display: block; margin: 0 auto;" src="images/sa-5-star.png"><img style="padding-bottom: 20px; display: block; margin: 0 auto;" class="sa_widget_footer" alt="" src="//www.shopperapproved.com/widgets/widgetfooter-darklogo.png"></a>
+				    <a href="//www.shopperapproved.com/reviews/Brandster.com/" target="_blank" class="cd-see-all">See all</a>
 				</div>
+				<!-- cd-testimonials-wrapper End -->
+
+				<!-- cd-testimonials-all-wrapper Start -->
+				<div class="cd-testimonials-all">
+				  <div class="cd-testimonials-all-wrapper">
+				    <ul>
+				      <li class="cd-testimonials-item">
+				        <p>"We had just built a new patio and the range of options for the composite chairs was excellent. We decided on the Coastal Adirondack Chairs. We combined the Weatherwood (Backs and Seats) and the Black (Arms/Legs). We are so satisfied, we are placing an order for 8-10 more this summer for our mothers house in NY.Incredibly durable and getting them was made so easy. Thanks Paul!!!!"</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>Randy B</li>
+				            <li>IL, United States <em>16 Jul 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				      <li class="cd-testimonials-item">
+				        <p>"I was glad to find a place to get an umbrella with the same fabric as my chair cushions. I couldn't find one to match at the stores I visited. It was a very smooth process. It took longer to get because it was a custom fabric."</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>Deborah Van D</li>
+				            <li>CA, United States <em>09 Jun 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				      <li class="cd-testimonials-item">
+				        <p>"I would highly recommend shopping with Brandster! Products are the real deal, customer service is wonderful and the prices are amazing! I saved over $1000 off the price I was quoted at my local store."</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>SC, United States <em>22 Apr 2015</em></li>
+				            <li>SC, United States <em>22 Apr 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				      <li class="cd-testimonials-item">
+				        <p>"Paul was extremely helpful. I ordered several items for our main house and an additional 7items for our farm home. I'm now needing to order 5 to 7 additional items for our farm house and main house...just seems I didn't get enough. They are easy to assemble and I'm a 56/year old woman. Need help to carry the table to the porch after assembly, only because of the weight and size. I loved working with Paul G. He assisted me with a couple measurements so I could make decisions...he was very knowledgeable and timely .I had a very good experience. Thanks to Paul. Sincerely, Lori"</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>Lori F</li>
+				            <li>MN, United States <em>06 May 2015</em></li>
+				          </ul>
+				        </div> <!-- cd-author -->
+				      </li>
+				      <li class="cd-testimonials-item">
+				        <p>"Paul Gioia was so helpful. I was worried when the carton came damaged Paul was quick to assure me they would replace any damaged pieces. As it turned out there was no damage but it is reassuring to know it would have been taken care of with no hassle. Paul was so nice and very responsive to all my questions. Love the furniture."</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>Markee</li>
+				            <li><em>16 Jun 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				      <li class="cd-testimonials-item">
+				        <p>"Paul was awesome, answered all questions and followed up to make sure everything arrived quickly and that we were happy. Our patio looks perfect, chairs are super comfy and we would purchase again!"</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>Beverly and Mike</li>
+				            <li><em>09 Aug 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				      <li class="cd-testimonials-item">
+				        <p>"Great Customer Service. My package arrived torn a bit from shipping, but of course it is near impossible to damage the breezesta products but the package with the hardware must have fallen out. I called Brandster and they immediately sent out a replacement package of hardware. Very satisfied with the whole experience."</p>
+				        <div class="cd-author">
+				          <ul class="cd-author-info">
+				            <li>Paul</li>
+				            <li>NY, United States <em>12 Jun 2015</em></li>
+				          </ul>
+				        </div>
+				      </li>
+				    </ul>
+				  </div>
+				  <!-- cd-testimonials-all-wrapper End -->
+				  <a href="#0" class="close-btn">Close</a>
+				</div>
+				<!-- cd-testimonials-all -->
 			</section>
-			<!--************************************
-					Testimonials End
-			*************************************-->
+			<!--***********************************
+			  End Flexslider
+			************************************-->
 			<!--************************************
 					Latest Blog Start
 			*************************************-->
-			<section class="tg-main-section tg-haslayout bg-white">
+			<!-- <section class="tg-main-section tg-haslayout bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
@@ -856,7 +955,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!--************************************
 					Latest Blog End
 			*************************************-->
@@ -1055,6 +1154,7 @@
 	<script src="js/vendor/jquery.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>
 	<script src="js/jquery.appear.js"></script>
@@ -1069,3 +1169,45 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+  //create the slider
+  $('.cd-testimonials-wrapper').flexslider({
+    selector: ".cd-testimonials > li",
+    animation: "slide",
+    controlNav: false,
+    slideshow: false,
+    smoothHeight: true,
+    start: function(){
+      $('.cd-testimonials').children('li').css({
+        'opacity': 1,
+        'position': 'relative'
+      });
+    }
+  });
+
+  //open the testimonials modal page
+  $('.cd-see-all').on('click', function(){
+    $('.cd-testimonials-all').addClass('is-visible');
+  });
+
+  //close the testimonials modal page
+  $('.cd-testimonials-all .close-btn').on('click', function(){
+    $('.cd-testimonials-all').removeClass('is-visible');
+  });
+  $(document).keyup(function(event){
+    //check if user has pressed 'Esc'
+      if(event.which=='27'){
+        $('.cd-testimonials-all').removeClass('is-visible');
+      }
+    });
+
+  //build the grid for the testimonials modal page
+  $('.cd-testimonials-all-wrapper').children('ul').masonry({
+      itemSelector: '.cd-testimonials-item'
+  });
+});
+
+</script>

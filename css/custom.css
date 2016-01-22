@@ -15,3 +15,35 @@
   display: block;
   text-align: center;
 }
+
+.testimonials .flex-direction-nav .flex-nav-prev,
+.testimonials .flex-direction-nav .flex-nav-next {
+  top: 0px;
+}
+
+.testimonials .flex-direction-nav .flex-nav-prev a,
+.testimonials .flex-direction-nav .flex-nav-next a {
+  background: none;
+}
+
+.testimonials .flex-direction-nav .flex-nav-prev a::after,
+.testimonials .flex-direction-nav .flex-nav-next a::after {
+  display: inherit;
+}
+
+.testimonials .flex-direction-nav li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.cd-author-info li {
+  list-style-type: none;
+  font-size: 1em;
+}
