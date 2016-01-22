@@ -564,7 +564,7 @@ address { font-style: italic; }
 /* =============================================
                         Header Style
 ============================================= */
-#header.affix-top{background:rgba(255,255,255,0.6);}
+#header.affix-top{background:rgba(255,255,255,1);}
 body.home #header{
     position:fixed;
     z-index:4;
