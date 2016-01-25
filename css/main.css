@@ -255,7 +255,7 @@ address { font-style: italic; }
     float:left;
     width:100%;
     padding:0 0 0 15px;
-    margin:0 0 40px;
+    margin:0 0 0px;
     text-transform:uppercase;
     border-left:2px solid;
     position: relative;
@@ -579,7 +579,7 @@ body.home .affix-top .add-nav{ padding:34px 0 13px;}
 body.home .affix .add-nav{ padding:17px 0 13px;}
 .navigation-area {
     float: right;
-    width: 80%;
+    width: 79%;
 }
 .add-nav{
     float:right;
@@ -614,18 +614,18 @@ body.home .affix .add-nav{ padding:17px 0 13px;}
     float:left;
     text-transform:uppercase;
 }
-body.home .logo{ width:170px;}
+body.home .logo{ width:230px;}
 body.home #header.affix .logo,
 .logo{
-    width:127px;
+    width:230px;
     float:left;
-    margin:0 50px 13px 0;
 }
 .logo a{display:block;}
 .logo a img{
     display:block;
     width:100%;
     height:auto;
+    margin-top: 8px;
 }
 .navbar-collapse{
     float:right;
@@ -950,7 +950,7 @@ body.home #main{ padding:0 0 20px 0;}
     list-style:none;
     float:left;
     width:100%;
-    background:#e5e5e5;
+    background:#1885B2;
     margin:0 0 40px;
 }
 ul.gallery-cats{position: relative;}
@@ -976,12 +976,12 @@ ul.gallery-cats{position: relative;}
     left:0;
     width:1px;
     height:12px;
-    background:#272727;
+    background:white;
     margin:-6px 0 0 0;
 }
 .gallery-cats li a{
     display:block;
-    color:#272727;
+    color:#ffffff;
     line-height:32px;
     padding:0 20px;
     position:relative;

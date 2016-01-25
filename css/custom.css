@@ -16,6 +16,26 @@
   text-align: center;
 }
 
+#top-content .tg-theme-heading {
+  margin-bottom: 60px;
+}
+#about h2 {
+  color: #1885B2;
+}
+
+
+/************************
+  Partnes Section Start
+************************/
+
+#partners ul#gallery-cats li a::after {
+  background: white;
+}
+
+/************************
+  Testimonials Start
+************************/
+
 .testimonials .flex-direction-nav .flex-nav-prev,
 .testimonials .flex-direction-nav .flex-nav-next {
   top: 0px;

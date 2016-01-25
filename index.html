@@ -54,7 +54,7 @@
 		<!--************************************
 				Header Start
 		*************************************-->
-		<header id="header" class="tg-haslayout" data-spy="affix" data-offset-top="10">
+		<header id="header" class="tg-haslayout" data-spy="affix">
 			<div class="container">
 				<strong class="logo">
 					<a href="index.html">
@@ -78,36 +78,11 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul>
 								<li class="current-menu-item">
-									<a href="index.html">Home</a>
-									<ul>
-										<li><a href="index2.html">Home2</a></li>
-									</ul>
+									<a href="#about" class="anchor-scroll" data-class-to="body">About</a>
 								</li>
-								<li><a href="aboutus.html">About</a></li>
-								<li><a href="services.html">Services</a></li>
+								<li><a href="#partners" class="anchor-scroll" data-class-to="body">Partners</a></li>
 								<li>
-									<a href="#">BUILD IT YOURSELF</a>
-									<ul>
-										<li><a href="virtual-construct.html">Introduction</a></li>
-										<li><a href="virtual-construct-firststep.html">Select your design</a></li>
-										<li><a href="virtual-construct-secondstep.html">virtual construction</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Portfolio</a>
-									<ul>
-										<li class="current-menu-item"><a href="portfolio-grid.html">Portfolio grid</a></li>
-                  <li><a href="portfolio-list.html">Portfolio list</a></li>
-									<li><a href="portfolio-detail.html">Portfolio Detail</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Blog</a>
-									<ul>
-										<li><a href="blog-grid.html">blog grid</a></li>
-										<li><a href="blog-list.html">blog list</a></li>
-										<li><a href="blog-detail.html">blog detail</a></li>
-									</ul>
+									<a href="#reviews" class="anchor-scroll" data-class-to="body">Testiimonials</a>
 								</li>
 								<li><a href="contact-us.html">Contact</a></li>
 								<li>
@@ -177,8 +152,11 @@
 			<!--************************************
 					About Brandster Start
 			*************************************-->
-			<section class="tg-main-section tg-haslayout bg-white">
+			<section id="about" class="tg-main-section tg-haslayout bg-white">
 				<div id="top-content" class="container" style="padding-bottom:100px !important; padding-top: 30px;">
+					<div class="tg-theme-heading">
+						<h2>Brandster, Inc. helps people save money on consumer products within the Home and Outdoor Furnishings, Accessories and Décor markets. Working with established partners, we eliminated the “middle man pricing” to bring consumers brand name products at lowest possible prices. Over the years we have built our company creditability from ethics and morals that continue to be the foundation of which we operate.</h2>
+					</div>
 					<div class="row">
 			        <div class="col-lg-4">
 			            <h3 style="color: #1584b2; font-weight: bold; text-align: center;">Brandster Rewards</h3>
@@ -204,44 +182,11 @@
 			<!--************************************
 					About Brandster End
 			*************************************-->
-			<!--************************************
-					Virtually Build Start
-			*************************************-->
-			<!-- <section class="tg-main-section tg-haslayout parallax-window" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax-img/bg-parallax-01.jpg">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-7 tg-displayinlineblock">
-							<div class="tg-virtual-img tg-haslayout">
-								<figure>
-									<img src="images/img-05.png" alt="image description">
-								</figure>
-							</div>
-						</div>
-						<div class="col-sm-5 tg-displayinlineblock">
-							<div class="tg-virtuallybuild">
-								<div class="tg-theme-heading">
-									<h2>virtually build your house <span>in few steps</span></h2>
-								</div>
-								<div class="tg-description">
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
-								</div>
-								<div class="tg-btn-box">
-									<a class="tg-theme-btn" href="#">build now</a>
-									<a class="tg-theme-btn" href="#">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
-			<!--************************************
-					Virtually Build End
-			*************************************-->
 
 			<!--************************************
 					Portfolio Start
 			*************************************-->
-			<section class="tg-main-section tg-haslayout bg-white">
+			<section id="partners" class="tg-main-section tg-haslayout bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="tg-portfolio">
@@ -628,7 +573,7 @@
 			<!--**********************************
 			   Start Flexslider Testimonials
 			***********************************-->
-			<section class="tg-main-section tg-haslayout testimonials">
+			<section id="reviews" class="tg-main-section tg-haslayout testimonials">
 				<!-- cd-testimonials-wrapper Start -->
 				<div class="cd-testimonials-wrapper cd-container">
 				  <ul class="cd-testimonials">
@@ -1163,6 +1108,7 @@
 	<script src="js/gnmenu.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/jquery.anchorScroll.js"></script>
 </body>
 </html>
 
