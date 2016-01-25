@@ -72,3 +72,11 @@
 #main section:first-of-type {
   background: #F5F5F5;
 }
+
+/************************
+  Contact Us Start
+************************/
+
+#contact .tg-theme-heading {
+  margin-bottom: 20px;
+}
