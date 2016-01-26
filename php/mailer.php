@@ -8,7 +8,7 @@ $json = array();
 $subject_message = "Contact Form Received";
 $constructioner_message = 'Message Sent.';
 $failure_message = 'Message Fail.';
-$recipient = 'your@email.com';
+$recipient = 'luis@brandster.com';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the form fields and remove whitespace.

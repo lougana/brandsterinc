@@ -2,8 +2,8 @@
 error_reporting();
 if (isset($_POST['email'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "hassan@theme-on.com";
-    $email_subject = "Your email subject line";
+    $email_to = "luis@brandster.com";
+    $email_subject = "You Got a Lead";
 
     function died($error) {
         // your error code can go here
