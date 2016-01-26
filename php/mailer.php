@@ -5,7 +5,7 @@
  *
  */
 $json = array();
-$subject_message = "Contact Form Received";
+$subject_message = "You Got a Lead";
 $constructioner_message = 'Message Sent.';
 $failure_message = 'Message Fail.';
 $recipient = 'luis@brandster.com';
