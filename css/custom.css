@@ -80,3 +80,15 @@
 #contact .tg-theme-heading {
   margin-bottom: 20px;
 }
+
+/************************
+  Footer Start
+************************/
+
+#footer .contact-info li a {
+  color: white;
+}
+
+.tg-social-icon li a i:hover {
+  color: white;
+}
