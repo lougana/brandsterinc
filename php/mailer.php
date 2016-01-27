@@ -8,7 +8,7 @@ $json = array();
 $subject_message = "You Got a Lead";
 $constructioner_message = 'Message Sent.';
 $failure_message = 'Message Fail.';
-$recipient = 'luis@brandster.com';
+$recipient = 'sales@brandster.com';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the form fields and remove whitespace.
