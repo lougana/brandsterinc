@@ -62,7 +62,7 @@
 				</strong>
 				<div class="navigation-area">
 					<ul class="add-nav">
-						<li><a href="//www.facebook.com/Brandstercom-123930917747430/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="//www.facebook.com/Brandstercom-123930917747430/" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
 						<li><a href="//plus.google.com/+BrandsterIncStuart" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 					<nav id="nav">
@@ -76,8 +76,8 @@
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul>
-								<li class="current-menu-item">
-									<a href="#home-slider" class="anchor-scroll" data-class-to="body">Home</a>
+								<li>
+									<a href="#home-slider" class="active anchor-scroll" data-class-to="body">Home</a>
 								</li>
 								<li>
 									<a href="#about" class="anchor-scroll" data-class-to="body">About</a>
@@ -1201,15 +1201,6 @@ jQuery(document).ready(function($){
     }
   });
 
-  //open the testimonials modal page
-  // $('.cd-see-all').on('click', function(){
-  //   $('.cd-testimonials-all').addClass('is-visible');
-  // });
-	//
-  // //close the testimonials modal page
-  // $('.cd-testimonials-all .close-btn').on('click', function(){
-  //   $('.cd-testimonials-all').removeClass('is-visible');
-  // });
   $(document).keyup(function(event){
     //check if user has pressed 'Esc'
       if(event.which=='27'){
@@ -1221,6 +1212,44 @@ jQuery(document).ready(function($){
   $('.cd-testimonials-all-wrapper').children('ul').masonry({
       itemSelector: '.cd-testimonials-item'
   });
+
+	// Active Class Navigation
+	$(document).on("scroll", onScroll);
+
+		$('a[href^="#active"]').on('click', function (e) {
+			e.preventDefault();
+			$(document).off("scroll");
+
+			$('a').each(function () {
+				$(this).removeClass('active');
+			})
+			$(this).addClass('active');
+
+			var target = this.hash;
+			$target = $(target);
+			$('html, body').stop().animate({
+				'scrollTop': $target.offset().top+2
+			}, 500, 'swing', function () {
+				window.location.hash = target;
+				$(document).on("scroll", onScroll);
+			});
+		});
+
 });
+
+function onScroll(event){
+	var scrollPosition = $(document).scrollTop();
+	$('nav a').each(function () {
+		var currentLink = $(this);
+		var refElement = $(currentLink.attr("href"));
+		if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+			$('nav ul li a').removeClass("active");
+			currentLink.addClass("active");
+		}
+		else{
+			currentLink.removeClass("active");
+		}
+	});
+}
 
 </script>
