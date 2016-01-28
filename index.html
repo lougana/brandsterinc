@@ -33,17 +33,16 @@
 			Preloader Start
 	*************************************-->
 	<div class="preloader">
-            <div id="status"></div>
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_four"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_one"></div>
-
-                </div>
-            </div>
-        </div>
+      <div id="status"></div>
+      <div id="loading-center">
+          <div id="loading-center-absolute">
+              <div class="object" id="object_four"></div>
+              <div class="object" id="object_three"></div>
+              <div class="object" id="object_two"></div>
+              <div class="object" id="object_one"></div>
+          </div>
+      </div>
+  </div>
 	<!--************************************
 			Preloader END
 	*************************************-->
@@ -63,8 +62,8 @@
 				</strong>
 				<div class="navigation-area">
 					<ul class="add-nav">
-						<li><a data-toggle="modal" data-target=".login-modalbox" href="#">Login</a></li>
-						<li><a data-toggle="modal" data-target=".signup-modalbox" href="#">Register</a></li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 					<nav id="nav">
 						<div class="navbar-header">
@@ -78,13 +77,20 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul>
 								<li class="current-menu-item">
+									<a href="#home-slider" class="anchor-scroll" data-class-to="body">Home</a>
+								</li>
+								<li>
 									<a href="#about" class="anchor-scroll" data-class-to="body">About</a>
 								</li>
-								<li><a href="#partners" class="anchor-scroll" data-class-to="body">Partners</a></li>
+								<li>
+									<a href="#partners" class="anchor-scroll" data-class-to="body">Partners</a>
+								</li>
 								<li>
 									<a href="#reviews" class="anchor-scroll" data-class-to="body">Testimonials</a>
 								</li>
-								<li><a href="#contact" class="anchor-scroll" data-class-to="body">Contact</a></li>
+								<li>
+									<a href="#contact" class="anchor-scroll" data-class-to="body">Contact</a>
+								</li>
 							</ul>
 						</div>
 					</nav>
@@ -143,7 +149,8 @@
 					About Brandster Start
 			*************************************-->
 			<section id="about" class="tg-main-section tg-haslayout bg-white">
-				<div id="top-content" class="container" style="padding-bottom:100px !important; padding-top: 30px;">
+				<div id="top-content" class="container" style="padding-top: 30px;">
+					<h1>About Us</h1>
 					<div class="tg-theme-heading">
 						<h2>Brandster, Inc. helps people save money on consumer products within the Home and Outdoor Furnishings, Accessories and Décor markets. Working with established partners, we work hard to bring consumers brand name products at lowest possible prices. Over the years we have built our company creditability from ethics and morals that continue to be the foundation of which we operate.</h2>
 					</div>
@@ -151,17 +158,17 @@
 			        <div class="col-lg-4">
 			            <h3 style="color: #1584b2; font-weight: bold; text-align: center;">Business to Business</h3>
 			            <img src="images/home-brandster-rewards.png" alt="" title="" />
-			            <p style="font-size: 116%;">Brandster Rewards our clients with many discounts and savings. Get the ideal package you want for the right price and more.</p>
+			            <p style="font-size: 116%;">Brandster B2B services and “cashback” incentive program help companies get exactly what they need, when they need it!</p>
 			        </div>
 			        <div class="col-lg-4">
 			            <h3 style="color: #1584b2; font-weight: bold; text-align: center;">Brand Brokers</h3>
 			            <img src="images/home-brandbrokers.png" alt="" title="" />
-			            <p style="font-size: 116%;">Unmatched shopping experiences thanks to our Brand Brokers. Let us take care of all of your shopping needs and a worry free guarantee.</p>
+			            <p style="font-size: 116%;">Unmatched shopping experiences thanks to our Brand Brokers. Get professional advice on brand, price, and value on today’s products.</p>
 			        </div>
 			        <div class="col-lg-4">
 			            <h3 style="color: #1584b2; font-weight: bold;text-align: center;">Sales Channels</h3>
 			            <img src="images/home-partners.png" alt="" title="" />
-			            <p style="font-size: 116%;">Brandster owns and operates over a dozen of brand name websites that gives customers a wide selection of choices to fit everyone's budget</p>
+			            <p style="font-size: 116%;">In addition to Brandster proprietary sites, we work with the top retail sales channels on the internet today to maximize brand exposure.</p>
 			        </div>
 					</div>
 		    </div>
@@ -1063,18 +1070,22 @@
 			<div class="tg-haslayout tg-footerbar-color">
 				<div class="container">
 					<div class="tg-footer-bar">
-						<nav class="footer-nav">
-							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">virtual construct</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
-						</nav>
-						<span class="copyright">&copy; 2015 | All Rights Reserved</span>
+						<!--  Shopper Approved Schema-->
+						<?php
+							ini_set('default_socket_timeout', 3);
+							echo file_get_contents('https://www.shopperapproved.com/feeds/schema.php/?siteid=13615&token=XwT1xDJHf8NprW4');
+							?>
+							<div itemscope itemtype="http://schema.org/FurnitureStore" style="color:#fff">
+								<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+								<span itemprop="streetAddress">1744 Nw Federal HWY</span>
+								<span itemprop="addressLocality">Stuart</span>,
+								<span itemprop="addressRegion">FL</span>
+								<span itemprop="postalCode">34994</span>
+								</span> |
+								<span itemprop="telephone">1-772-934-6320</span>
+							</div>
+							<!--  End Shopper Approved Schema-->
+						<span class="copyright">&copy; 2016 | All Rights Reserved</span>
 					</div>
 				</div>
 			</div>

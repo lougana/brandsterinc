@@ -1,6 +1,11 @@
 /************************
   About Brandster
 ************************/
+#top-content h1 {
+  text-align: center;
+  color: #1885B2;
+  font-weight: 700;
+}
 
 #top-content .col-lg-4 p {
   text-align: center;
@@ -21,6 +26,10 @@
 }
 #about h2 {
   color: #1885B2;
+}
+
+#about.tg-main-section {
+  padding: 40px 0 80px;
 }
 
 
