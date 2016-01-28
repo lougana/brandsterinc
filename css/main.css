@@ -2893,18 +2893,19 @@ body.version-two .current-menu-item a i:before {line-height: 65px !important;}
     -webkit-border-radius: 50% 50% 50% 50%;
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    border-left: 5px solid #272727;
+    /*border-left: 5px solid #272727;
     border-right: 5px solid #272727;
     border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
+    border-bottom: 5px solid transparent;*/
     -webkit-animation: animate 2s infinite;
     animation: animate 2s infinite;
 }
 #object_one{
+    background-image: url(../images/bdr-load.png);
     left: 75px;
     top: 75px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 59px;
 }
 #object_two{
     left: 65px;
