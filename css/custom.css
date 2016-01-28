@@ -1,4 +1,10 @@
 /************************
+  Start Header
+************************/
+#header i[class*="fa-"] {
+  padding: 4px 10px;
+}
+/************************
   About Brandster
 ************************/
 #top-content h1 {
