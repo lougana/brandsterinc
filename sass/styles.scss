@@ -1,12 +1,17 @@
-@import "bootstrap.min";
-@import "prettyPhoto";
-@import "font-awesome.min";
-@import "flaticon";
-@import "owl.carousel";
-@import "owl.theme";
-@import "transitions";
-@import "main";
-@import "color";
-@import "responsive";
-@import "flexslider";
-@import "custom";
+
+@import "0-tools/bootstrap.min";
+
+@import "1-base/color";
+@import "1-base/component";
+@import "1-base/flaticon";
+@import "1-base/font-awesome.min";
+@import "1-base/transitions";
+
+@import "2-modules/flexslider";
+@import "2-modules/prettyPhoto";
+@import "2-modules/owl.carousel";
+@import "2-modules/owl.theme";
+
+@import "3-layouts/main";
+@import "3-layouts/responsive";
+@import "3-layouts/custom";

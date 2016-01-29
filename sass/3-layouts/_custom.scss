@@ -1,61 +1,88 @@
 /************************
   Start Header
 ************************/
-#header i[class*="fa-"] {
-  padding: 0px 10px;
-  font-size: 20px;
+#header {
+  i[class*="fa-"] {
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+  #nav {
+    ul {
+      li {
+        a.active {
+          border-bottom: 3px solid #1885b2;
+        }
+      }
+    }
+  }
 }
-
-#nav ul li a.active {
-  border-bottom: 3px solid #1885B2;
+.owl-buttons {
+  i[class*="fa-angle"] {
+    font-size: 50px;
+  }
 }
-
 /************************
   About Brandster
 ************************/
-#top-content h1 {
-  text-align: center;
-  color: #1885B2;
-  font-weight: 700;
+#top-content {
+  h1 {
+    text-align: center;
+    color: #1885B2;
+    font-weight: 700;
+  }
+  .col-lg-4 {
+    p {
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+  .tg-theme-heading {
+    margin-bottom: 60px;
+  }
 }
-
-#top-content .col-lg-4 p {
-  text-align: center;
+#about {
+  .tg-main-section {
+    padding: 40px 0 80px;
+  }
+  h2 {
+    color: #1885B2;
+  }
 }
-
-#top-content .col-lg-4 img {
-  display: block;
-  margin: 0 auto;
-}
-
-#top-content .col-lg-4 span {
-  display: block;
-  text-align: center;
-}
-
-#top-content .tg-theme-heading {
-  margin-bottom: 60px;
-}
-#about h2 {
-  color: #1885B2;
-}
-
-#about.tg-main-section {
-  padding: 40px 0 80px;
-}
-
-
 /************************
   Partnes Section Start
 ************************/
 
-#partners ul#gallery-cats li a::after {
-  background: white;
+#partners #gallery-cats {
+  li {
+    a {
+      &:after {
+        background: white;
+      }
+    }
+  }
 }
 
 /************************
   Testimonials Start
 ************************/
+
+.testimonials {
+  .flex-direction-nav {
+    .flex-nav-prev {
+      top: 0px;
+    }
+    .flex-nav-next {
+      top: 0px;
+    }
+  }
+}
 
 .testimonials .flex-direction-nav .flex-nav-prev,
 .testimonials .flex-direction-nav .flex-nav-next {
@@ -97,11 +124,11 @@
 /************************
   Contact Us Start
 ************************/
-
-#contact .tg-theme-heading {
-  margin-bottom: 20px;
+#contact {
+  .tg-theme-heading {
+    margin-bottom: 20px;
+  }
 }
-
 /************************
   Footer Start
 ************************/
@@ -121,7 +148,6 @@
       }
     }
   }
-
   .tg-social-icon {
     li {
       a {

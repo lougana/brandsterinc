@@ -82,7 +82,7 @@
 	color: #fff;
 }
 /* Iconfont for navigation and headings */
-.cbp-contentslider [class^="icon-"]:before, 
+.cbp-contentslider [class^="icon-"]:before,
 .cbp-contentslider [class*=" icon-"]:before {
 	font-family: 'icomoon';
 	font-style: normal;
@@ -105,14 +105,18 @@
 .cbp-contentslider .icon-turtle:before {content: "\54";}
 .cbp-contentslider .icon-platypus:before {content: "\42";}
 .cbp-contentslider .icon-aligator:before {content: "\41";}
-.cbp-contentslider [class^="icon-"].rc-active:before, 
-.cbp-contentslider [class*=" icon-"].rc-active:before,
+// .cbp-contentslider [class^="icon-"].rc-active:before,
+// .cbp-contentslider [class*=" icon-"].rc-active:before,
 
 /* Media queries */
-@media screen and (max-width: 70em) { .cbp-contentslider p {font-size: 100%;}}
+@media screen and (max-width: 70em) {
+	.cbp-contentslider p {
+		font-size: 100%;
+	}
+}
 @media screen and (max-width: 67.75em) {
 	.cbp-contentslider { font-size: 85%; }
-	.cbp-contentslider nav a[class^="icon-"]:before, 
+	.cbp-contentslider nav a[class^="icon-"]:before,
 	.cbp-contentslider nav a[class*=" icon-"]:before {
 		left: 50%;
 		margin-left: -1.250em;
@@ -129,8 +133,8 @@
 	}
 	.cbp-contentslider li > div {top: 5em;}
 }
-@media screen and (max-width: 25em) { 
+@media screen and (max-width: 25em) {
 	.cbp-contentslider nav a { padding: 0;}
-	.cbp-contentslider h3[class^="icon-"]:before, 
+	.cbp-contentslider h3[class^="icon-"]:before,
 	.cbp-contentslider h3[class*=" icon-"]:before { display: none;}
 }
