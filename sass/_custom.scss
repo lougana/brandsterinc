@@ -106,10 +106,31 @@
   Footer Start
 ************************/
 
-#footer .contact-info li a {
-  color: white;
-}
+#footer {
+  .contact-info {
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+  .tg-post-contentbox {
+    a {
+      &:hover {
+        color: #136C91;
+      }
+    }
+  }
 
-.tg-social-icon li a i:hover {
-  color: white;
+  .tg-social-icon {
+    li {
+      a {
+        i {
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }

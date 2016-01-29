@@ -1,4 +1,5 @@
 node_modules/
+.sass-cache/
 .htaccess
 404.shtml
 default.htm
