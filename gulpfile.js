@@ -25,7 +25,7 @@ gulp.task('scripts', function(){
 
 // SASS & Autoprefixer
 gulp.task('sass', function() {
-  return sass('sass/*.scss', { style: 'expanded' })
+  return sass('sass/**/*.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(gulp.dest('css/'))
 });
@@ -44,7 +44,7 @@ gulp.task('browser-sync', function() {
 // Watch Task
 gulp.task('watch', function(){
 	gulp.watch('templates/*.jade', ['jade']);
-	gulp.watch('sass/*.scss', ['sass']);
+	gulp.watch('sass/**/*.scss', ['sass']);
 	gulp.watch('./*.html');
 });
 
