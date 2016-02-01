@@ -124,7 +124,7 @@ $(document).ready(function (e) {
             $(window).load(function () {
                 $container.isotope({
                     itemSelector: '.portfolio-item',
-                    filter: isotopeFilter
+                    filter: '.outdoor'
                 });
 
             });
