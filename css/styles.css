@@ -12498,7 +12498,7 @@ body.home .affix .add-nav {
 }
 
 #nav {
-  width: 77%;
+  width: 70%;
   float: left;
   text-transform: uppercase;
 }
@@ -15818,11 +15818,11 @@ body.version-two .current-menu-item a i:before {
   }
 
   #nav {
-    width: 80%;
+    width: 64%;
   }
 
   .navigation-area {
-    width: 78%;
+    width: 70%;
   }
 
   .add-nav li {
@@ -16966,6 +16966,13 @@ body.version-two .current-menu-item a i:before {
 /************************
   Partnes Section Start
 ************************/
+#partners .tg-main-section {
+  padding-to: 80x;
+}
+#partners .tg-portfolio .tg-theme-heading {
+  margin-top: 60px;
+}
+
 #partners #gallery-cats li a:after {
   background: white;
 }
@@ -17018,20 +17025,26 @@ body.version-two .current-menu-item a i:before {
 /************************
   Contact Us Start
 ************************/
+#contact {
+  padding: 50px 0;
+}
+#contact ul li span:nth-child(3) {
+  width: 30%;
+}
 #contact .form-contactus fieldset {
   padding-top: 30px;
-}
-#contact .contact-info {
-  width: 40%;
 }
 #contact .contact-info a {
   color: black;
 }
-#contact .tg-col .tg-theme-heading {
-  margin-bottom: 20px;
-}
 #contact .tg-col .tg-theme-heading h3 {
   color: black;
+}
+#contact .tg-main-section {
+  padding-top: 44px;
+}
+#contact .tg-theme-heading {
+  margin-top: 60px;
 }
 
 /************************

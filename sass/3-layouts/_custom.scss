@@ -58,7 +58,16 @@
 /************************
   Partnes Section Start
 ************************/
-
+#partners {
+  .tg-main-section {
+    padding-to: 80x;
+  }
+  .tg-portfolio {
+    .tg-theme-heading {
+      margin-top: 60px;
+    }
+  }
+}
 #partners #gallery-cats {
   li {
     a {
@@ -72,7 +81,6 @@
 /************************
   Testimonials Start
 ************************/
-
 .testimonials {
   .flex-direction-nav {
     .flex-nav-prev {
@@ -125,25 +133,38 @@
   Contact Us Start
 ************************/
 #contact {
+  padding: 50px 0;
+  ul {
+    li {
+      span {
+        &:nth-child(3) {
+          width: 30%;
+        }
+      }
+    }
+  }
   .form-contactus {
     fieldset {
       padding-top: 30px;
     }
   }
   .contact-info {
-    width: 40%;
     a{
       color: black;
     }
   }
   .tg-col {
     .tg-theme-heading {
-      margin-bottom: 20px;
-
       h3 {
         color: black;
       }
     }
+  }
+  .tg-main-section {
+    padding-top: 44px;
+  }
+  .tg-theme-heading {
+    margin-top: 60px;
   }
 }
 /************************
