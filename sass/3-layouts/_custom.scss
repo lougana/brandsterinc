@@ -125,8 +125,25 @@
   Contact Us Start
 ************************/
 #contact {
-  .tg-theme-heading {
-    margin-bottom: 20px;
+  .form-contactus {
+    fieldset {
+      padding-top: 30px;
+    }
+  }
+  .contact-info {
+    width: 40%;
+    a{
+      color: black;
+    }
+  }
+  .tg-col {
+    .tg-theme-heading {
+      margin-bottom: 20px;
+
+      h3 {
+        color: black;
+      }
+    }
   }
 }
 /************************

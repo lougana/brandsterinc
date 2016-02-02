@@ -12282,7 +12282,7 @@ address {
 }
 
 .tg-main-section {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 .bg-white {
@@ -17018,8 +17018,20 @@ body.version-two .current-menu-item a i:before {
 /************************
   Contact Us Start
 ************************/
-#contact .tg-theme-heading {
+#contact .form-contactus fieldset {
+  padding-top: 30px;
+}
+#contact .contact-info {
+  width: 40%;
+}
+#contact .contact-info a {
+  color: black;
+}
+#contact .tg-col .tg-theme-heading {
   margin-bottom: 20px;
+}
+#contact .tg-col .tg-theme-heading h3 {
+  color: black;
 }
 
 /************************
