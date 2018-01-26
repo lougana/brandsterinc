@@ -17094,3 +17094,9 @@ p {
   list-style-type: none;
 }
 
+#thankyouBlock {
+  background-color: #5cbe94; 
+  color: white; padding: 20px; 
+  border-radius: 8px;
+}
+

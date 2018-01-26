@@ -14,7 +14,7 @@ $(document).ready(function() {
         
         //send to formspree
         $.ajax({
-            url:'https://formspree.io/systems@brandster.com',
+            url:'https://formspree.io/sales@brandster.com',
             method:'POST',
             data:{
                 name:name,
