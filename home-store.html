@@ -114,7 +114,7 @@
 					<div>
 						<div class="col-sm-6">
 							<h2 style="font-weight: bold;">Shop Direct &amp; save More</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+							<p>Email or talk to one of our Brand Specialist at <br>772-934-6320 Monday - Sunday 9:30am - 5:30pm</p>
 							<ul class="big-font" style="color: #5c5c5c;">
 								<li><b>Hassle Free</b></li>
 								<li><b>Direct Pricing</b></li>
@@ -123,24 +123,24 @@
 							</ul>
 						</div>
 						<div class="col-sm-6">
-							<form>
+							<form id="storeForm formBlock">
 								<div class="form-group">
-								    <label for="exampleInputEmail1">Name</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
-								    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+								    <label for="name">Name</label>
+								    <input id="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
 							  </div>
 							  <div class="form-group">
-							    <label for="exampleInputEmail1">Email address</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-							    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+							    <label for="email">Email Address</label>
+							    <input id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 							  </div>
 							  <div class="form-group">
-							    <label for="exampleInputEmail1">Phone</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone">
-							    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+							    <label for="phone">Phone</label>
+							    <input id="number" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone">
 							  </div>
-							  <button type="submit" class="btn btn-primary" style="width: 100%; height: 50px;">Submit</button>
+								  <button type="submit" class="btn btn-primary" style="width: 100%; height: 50px;">Submit</button>
 							</form>
+							<div id="thankyouBlock" style="display:none">
+						        <p>Thank you for filling out the form. I care a lot about it.</p>
+						    </div>
 						</div>
 					</div>
 			    </div>
@@ -357,7 +357,7 @@
 									<ul>
 										<li>
 											<span>Office Address:</span>
-											<span>1744 NW Federal Hwy, Stuart, FL 34994</span>
+											<span>2850 SE Market Place Street, Stuart, FL 34994</span>
 											<span>Mailing Address:</span>
 											<span>P.O. Box 2772 Stuart, FL 34995</span>
 										</li>
@@ -456,7 +456,7 @@
 								?>
 								<div itemscope itemtype="http://schema.org/FurnitureStore" style="color:#fff">
 									<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-									<span itemprop="streetAddress">1744 Nw Federal HWY</span>
+									<span itemprop="streetAddress">2850 SE Market Place Street</span>
 									<span itemprop="addressLocality">Stuart</span>,
 									<span itemprop="addressRegion">FL</span>
 									<span itemprop="postalCode">34994</span>
@@ -560,6 +560,8 @@
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/jquery.anchorScroll.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/formspree.js"></script>
 </body>
 </html>
 
@@ -633,5 +635,7 @@ function onScroll(event){
 }
 
 $('.carousel').carousel()
+
+
 
 </script>
