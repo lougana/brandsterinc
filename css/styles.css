@@ -17059,3 +17059,38 @@ body.version-two .current-menu-item a i:before {
 #footer .tg-social-icon li a i:hover {
   color: white;
 }
+
+
+/************************
+  Home Store Styles
+************************/
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.big-font {
+  font-size: 26px;
+}
+
+.big-font li {
+  line-height: 54px;
+}
+
+.home-store .tg-theme-heading {
+  text-transform: initial;
+}
+
+.home-store .carousel-control.right {
+  right: 16px;
+}
+
+.home-store .carousel-control.left {
+  left: 16px;
+}
+
+.flex-nav-prev, .flex-nav-next {
+  list-style-type: none;
+}
+
