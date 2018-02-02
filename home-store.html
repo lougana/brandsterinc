@@ -4,6 +4,38 @@
 <!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
 <head>
+	 
+	 <!-- Google Code for Form Submission Conversion Page
+     In your html page, add the snippet and call goog_report_conversion when someone clicks on the chosen link or button. -->
+	<script type="text/javascript">
+  /* <![CDATA[ */
+  goog_snippet_vars = function() {
+    var w = window;
+    w.google_conversion_id = 820797424;
+    w.google_conversion_label = "sB7RCMWeg3wQ8L-xhwM";
+    w.google_remarketing_only = false;
+  }
+  // DO NOT CHANGE THE CODE BELOW.
+  goog_report_conversion = function(url) {
+    goog_snippet_vars();
+    window.google_conversion_format = "3";
+    var opt = new Object();
+    opt.onload_callback = function() {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  }
+  var conv_handler = window['google_trackConversion'];
+  if (typeof(conv_handler) == 'function') {
+    conv_handler(opt);
+  }
+}
+	/* ]]> */
+	</script>
+
+<script type="text/javascript"
+  src="//www.googleadservices.com/pagead/conversion_async.js">
+</script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37854903-2"></script>
 	<script>
@@ -139,7 +171,7 @@
 							    <input name="email" id="email" type="email" class="form-control" placeholder="Enter Email">
 							    <label style="margin-top: 16px;" for="phone">Phone</label>
 							    <input name="number" id="number" type="text" class="form-control" placeholder="Enter Phone">
-								<input type="submit" class="btn btn-primary" value="Submit" style="width: 100%; height: 50px; margin-top: 10px;">
+								<input type="submit" class="btn btn-primary" value="Submit" onclick="return gtag_report_conversion()" style="width: 100%; height: 50px; margin-top: 10px;">
 							</form>
 						</div>
 						<div class="col-sm-6" id="thankyouBlock" style="display:none">
