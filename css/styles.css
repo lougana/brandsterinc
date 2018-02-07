@@ -17100,3 +17100,49 @@ p {
   border-radius: 8px;
 }
 
+.storeCard img {
+  display: block;
+  margin: 0 auto;
+}
+
+.offerItem {
+  padding-bottom: 60px;
+}
+
+.offerItem img {
+  float: left;
+  border-radius: 50%;
+}
+
+.offerItem__wrapper {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.offerItem__wrapper h3 {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.th-offer h2 {
+  padding-bottom: 30px;
+}
+
+.th-offer .container {
+  width: 970px;
+}
+
+.th-brands img {
+  width: 87%;
+  display: block;
+  margin: 0 auto;
+}
+
+.bg-gray {
+  background: #f4f4f4;
+}
+
+
+
+
+
