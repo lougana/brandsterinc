@@ -93,7 +93,7 @@ h6{
 }
 #header{
 	background-color:#FFF;
-	padding:20px 0;
+	padding: 0 0 20px;
 }
 .bold{
 	font-weight:bold;	
@@ -106,7 +106,7 @@ h6{
 }
 .logo h1{
 	color:#5f236b;
-	font-size: 40px;
+	font-size: 35px;
 	font-family: 'Raleway';
 	margin:0;
 }
