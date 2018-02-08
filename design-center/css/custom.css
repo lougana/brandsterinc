@@ -1,0 +1,67 @@
+#header span {
+  color: #CF4140;
+  font-size: 28px;
+}
+#header .header-right p {
+  color: #898989;
+  font-size: 28px;
+}
+
+#banner {
+  color: #EEFF00;
+}
+#banner h1 {
+  padding-left: 22px;
+}
+#banner .submit {
+  background-color: #78CD3E;
+  color: white;
+}
+#banner .submit:hover {
+  background-color: #88E648;
+}
+#banner .banner-left {
+  padding-top: 300px;
+}
+#banner .banner-left .col-sm-6:first-of-type .fa-ul {
+  padding-left: 87px;
+}
+
+#logos .logo h1 {
+  padding-top: 60px;
+}
+#logos .logo h1:first-of-type {
+  padding-bottom: 70px;
+}
+
+#services {
+  background-color: #68ABD2;
+}
+#services h3, #services h1 {
+  color: white;
+}
+#services .serviceBox {
+  padding: 10px 0;
+}
+
+#content .contentBox {
+  margin-top: 20px;
+}
+
+#footer-banner {
+  background-image: url("../images/footer-bg.jpg");
+  background-position: 100%;
+}
+#footer-banner .footer-banner-inner h1, #footer-banner .footer-banner-inner h2 {
+  color: #EEFF00;
+  text-shadow: 2px 2px 4px #181818;
+}
+#footer-banner .footer-banner-inner a {
+  text-shadow: inherit;
+}
+
+@media (max-width: 767px) {
+  #banner .banner-left {
+    margin-top: 0px;
+  }
+}
