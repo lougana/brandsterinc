@@ -71,6 +71,16 @@
 .nav a {
   color: #000;
 }
+.storeCard img {
+  display: block;
+  margin: 0 auto;
+}
+.col-md-3.text-center {
+  margin-top: 58px;
+}
+#makeSimple {
+  padding: 120px 0;
+}
 @media (max-width: 767px) {
   #banner .banner-left {
     margin-top: 0px;
