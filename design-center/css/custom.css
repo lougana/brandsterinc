@@ -33,17 +33,6 @@
 #logos .logo h1:first-of-type {
   padding-bottom: 70px;
 }
-
-#services {
-  background-color: #68ABD2;
-}
-#services h3, #services h1 {
-  color: white;
-}
-#services .serviceBox {
-  padding: 10px 0;
-}
-
 #content .contentBox {
   margin-top: 20px;
 }
@@ -81,6 +70,22 @@
 #makeSimple {
   padding: 120px 0;
 }
+
+/* START WHAT WE OFFER SECTION */
+
+#services {
+  background-image: url(../images/whatweoffer-bg.jpg);
+}
+#services h3, #services h1 {
+  color: white;
+}
+#services .serviceBox {
+  padding: 10px 0;
+}
+
+/* END WHAT WE OFFER SECTION */
+
+
 @media (max-width: 767px) {
   #banner .banner-left {
     margin-top: 0px;
