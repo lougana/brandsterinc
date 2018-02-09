@@ -86,6 +86,14 @@
 /* END WHAT WE OFFER SECTION */
 
 
+/* START DESIGN CENTER */
+
+#designCenter .col-md-6 {
+  padding: 0;
+}
+
+/* END DESIGN CENTER*/
+
 @media (max-width: 767px) {
   #banner .banner-left {
     margin-top: 0px;
