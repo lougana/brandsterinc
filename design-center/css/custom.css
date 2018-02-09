@@ -2,6 +2,11 @@
   color: #CF4140;
   font-size: 28px;
 }
+.lead-text {
+  font-size: 44px;
+  font-weight: bold;
+  color: #ff7300;
+}
 #header .header-right p {
   color: #898989;
   font-size: 28px;
@@ -91,8 +96,19 @@
 #designCenter .col-md-6 {
   padding: 0;
 }
+.googleMaps {
 
+}
 /* END DESIGN CENTER*/
+
+/* Start Call Info Section */
+.callInfo {
+  font-size: 44px;
+  font-weight: bold;
+  color: #ff7300;
+  margin-top: 60px;
+}
+/* End Call Info Section*/
 
 @media (max-width: 767px) {
   #banner .banner-left {
