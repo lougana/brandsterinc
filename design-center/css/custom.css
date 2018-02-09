@@ -110,6 +110,39 @@
 }
 /* End Call Info Section*/
 
+/* Start Coupon Code Section */
+
+.couponContainer {
+  padding-bottom: 60px;
+}
+.couponContainer img {
+  width: 100%;
+}
+
+/* End Coupon Code Section */
+
+
+/* Start Contact Form Section */
+
+.contactSection button {
+    display: block;
+    margin: 0 auto;
+    width: 346px;
+    background-color: #ffb900;
+    height: 39px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 60px auto;
+}
+.contactSection input[type="text"], 
+.contactSection input[type="email"] {
+  margin-top: 2px;
+  border: 2px solid #b2b2b2;
+}
+
+/* End Coupon Form Section */
+
 @media (max-width: 767px) {
   #banner .banner-left {
     margin-top: 0px;
