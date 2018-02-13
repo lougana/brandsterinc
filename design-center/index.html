@@ -545,26 +545,23 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="wrapper contactForm" id="couponContact">
-					<form>
-						<div class="form-group">
+				<div class="wrapper contactForm">
+					<form id="couponContact">
+						
 							<label for="Email Address">Name</label>
-							<input id="couponName" type="text" class="form-control" placeholder="Name">
-						</div>
-						<div class="form-group">
+							<input name="name" id="couponName" type="text" class="form-control" placeholder="Name">
+						
 							<label for="Phone Number">Phone Number</label>
-							<input id="couponPhone" type="text" class="form-control" placeholder="Phone">
-						</div>
-						<div class="form-group">
+							<input name="phone" id="couponPhone" type="text" class="form-control" placeholder="Phone">
+						
+						
 							<label for="Email Address">Email Address</label>
-							<input id="couponEmail" type="email" class="form-control" placeholder="Your Email">
-						</div>
-						<div class="form-group">
-							<textarea id="couponText" class="form-control" rows="3"></textarea>
-						</div>
-						<div class="form-group">
+							<input name="email" id="couponEmail" type="email" class="form-control" placeholder="Your Email">
+						
+						
+							<textarea name="comment" id="couponText" class="form-control" rows="3"></textarea>
+						
 							<button type="submit" class="btn btn-default">Submit</button>
-						</div>
 						<div id="thankyouBlock" style="display:none">
 					        <p>
 					            Thank you for filling out the form. I care a lot about it.
@@ -628,9 +625,9 @@
 <script src="scripts/smoothScroll.js" type="text/javascript"></script>
 <script src="scripts/waypoints.js" type="text/javascript"></script>
 <script src="scripts/script.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script> <!-- Resource jQuery -->
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="scripts/formspree.js"></script>
 <script type="text/javascript">
 
@@ -646,20 +643,20 @@ if ($(".ts-testimonial-slide").length > 0) {
         });
     };
     
-    jQuery(function() {
-        jQuery('body').on('submit', 'form.estimation-form', function() {
-            var curForm = jQuery(this);
-            $.ajax({
-                url: 'mail.php',
-                type: 'POST',
-                data: jQuery(curForm).serialize(),
-                success: function(data) {
-                    jQuery('.expMessage').html(data);
-                }
-            });
-            return false;
-        });
-    });
-    </script>
+    // jQuery(function() {
+    //     jQuery('body').on('submit', 'form.estimation-form', function() {
+    //         var curForm = jQuery(this);
+    //         $.ajax({
+    //             url: 'mail.php',
+    //             type: 'POST',
+    //             data: jQuery(curForm).serialize(),
+    //             success: function(data) {
+    //                 jQuery('.expMessage').html(data);
+    //             }
+    //         });
+    //         return false;
+    //     });
+    // });
+</script>
 </body>
 </html>

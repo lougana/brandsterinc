@@ -8,7 +8,7 @@ $(document).ready(function() {
         // get phone number
         var phone = $('#couponPhone').val();
         //get the name field value
-        var email = $('#email').val();
+        var email = $('#couponEmail').val();
         //get the comments
         var comments = $('#couponText').val();
                     
