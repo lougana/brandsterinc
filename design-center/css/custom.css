@@ -120,7 +120,7 @@
   width:100%;
 }
 
-.container-fluid--banner {
+.container-fluid--banner--wide {
   letter-spacing: 13px;
 }
 .lead-text--larger {
@@ -192,6 +192,26 @@
 }
 
 /* End Coupon Form Section */
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    START TESTIMONIAL WIDGET
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+#testimonial p {
+  font-size: 23px;
+  font-family: "open Sans";
+  margin-top: 20px;
+  color: white;
+}
+#testimonial .container-fluid a {
+  color: white;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    END TESTIMONIAL WIDGET
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
 
 @media (max-width: 767px) {
   #banner .banner-left {
