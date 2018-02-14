@@ -37,7 +37,10 @@
 #banner .banner-left .col-sm-6:first-of-type .fa-ul {
   padding-left: 87px;
 }
-
+.btn-primary {
+  font-weight: bold;
+  font-size: 25px;
+}
 #logos .logo h1 {
   padding-top: 60px;
 }
@@ -87,7 +90,7 @@
   padding: 0px 0px 120px;
 }
 #makeSimple hr {
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   background-color: #00a1df;
   height: 15px;
 }
@@ -159,7 +162,7 @@
   padding-bottom: 60px;
 }
 .couponContainer img {
-  height: 333px;
+  height: 400px;
   display: block;
   margin: 0 auto;
 }
@@ -182,7 +185,9 @@
 /* End Coupon Code Section */
 
 
-/* Start Contact Form Section */
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  Start Contact Form Section 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 .contactSection button {
     display: block;
@@ -211,8 +216,14 @@
   font-size: 22px;
   font-weight: bold;
 }
+.inputcontainer_top {
+  margin-top: 10%;
+}
 
-/* End Coupon Form Section */
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  End Contact Form Section 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
 
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
