@@ -64,6 +64,10 @@
   color: white;
   text-align: center;
 }
+.container-fluid--banner h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
 .brandSection img {
   display: block;
   margin: 0 auto;
