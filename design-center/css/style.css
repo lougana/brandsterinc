@@ -107,8 +107,8 @@ h6{
 .logo h1{
 	color:#5f236b;
 	font-size: 35px;
-	font-family: 'Raleway';
 	margin:0;
+	font-weight: bold;
 }
 .header-right p{
 	font-size:18px;
