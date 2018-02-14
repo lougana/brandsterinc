@@ -511,19 +511,20 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<form id="couponContact" class="contactForm">
-					
-						<label for="Email Address">Name</label>
-						<input name="name" id="couponName" type="text" class="form-control" placeholder="Name">
-						<label for="Phone Number">Phone Number</label>
-						<input name="phone" id="couponPhone" type="text" class="form-control" placeholder="Phone">
-						<label for="Email Address">Email Address</label>
-						<input name="email" id="couponEmail" type="email" class="form-control" placeholder="Your Email">
-						<input type="submit" class="btn btn-primary" value="Get Coupons Now" style="width: 100%; height: 50px; margin-top: 30px;">
-						<div id="thankyouBlock" style="display:none">
-					        <p>Thank you for filling out the form. I care a lot about it.</p>
-					    </div>
-				</form>
+				<form id="couponContact" class="contactForm" method="POST" action="http://formspree.io/systems@brandster.com">
+		          <div class="inputcontainer_top">
+
+		            <label for="name">Name</label>
+		            <input type="text" id="fname" name="name" class="form-control" placeholder="Name">
+
+		            <label for="email">Email</label>
+		            <input type="email" id="lname" name="email" class="form-control" placeholder="Email">
+		            
+		            <label for="phone">Phone</label>
+		            <input type="text" id="lname" name="phone" class="form-control" placeholder="Phone">
+		          </div>
+		          <button name="_next" class="btn btn-primary" value="//brandsterinc.com/design-center/thankyou.html" type="submit" style="width: 100%; height: 50px; margin-top: 30px;">Get Coupons Now</button>
+		        </form>
 			</div>
 		</div>
 	</div>
