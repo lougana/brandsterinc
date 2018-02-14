@@ -122,6 +122,8 @@
 
 .container-fluid--banner--wide {
   letter-spacing: 21px;
+}
+.container-fluid--banner--wide h2 {
   font-weight: bold;
 }
 .lead-text--larger {
