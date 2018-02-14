@@ -2,7 +2,7 @@
 error_reporting();
 if (isset($_POST['email'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "sales@brandster.com";
+    $email_to = "systems@brandster.com";
     $email_subject = "You Got a Lead";
 
     function died($error) {
