@@ -121,7 +121,8 @@
 }
 
 .container-fluid--banner--wide {
-  letter-spacing: 13px;
+  letter-spacing: 21px;
+  font-weight: bold;
 }
 .lead-text--larger {
   font-size: 70px;
