@@ -133,19 +133,15 @@
             
                 <h2>Fast Quote!</h2>
                 <h4>Zero Obligation / Zero Cost</h4>
-                
-                <form method="post" class="estimation-form">
-                    <div class="expMessage"></div> 
-                    <input type="text" name="formInput[name]" placeholder="Name" required>
-                    <input name="formInput[phone]" type="tel" placeholder="Phone" required>
-                    
-                    <input type="email" name="formInput[email]" id="field-email" placeholder="Email" required>
-                    <textarea name="formInput[message]" placeholder="Brand / Interest" required></textarea>
-                    <input type="hidden" name="action" value="submitform">
-                    <input type="submit" class="submit" value="CONTACT REP">
-                     
-                </form> 
-                
+                <form id="couponContact" class="estimation-form" method="POST" action="http://formspree.io/systems@brandster.com">
+		          <div class="inputcontainer_top">
+		            <input type="text" id="fname" name="name" class="form-control" placeholder="Name">
+		            <input type="email" id="lname" name="email" class="form-control" placeholder="Email">
+		            <input type="text" id="lname" name="phone" class="form-control" placeholder="Phone">
+		            <textarea name="formInput[message]" placeholder="Brand / Interest" required></textarea>
+		          </div>
+		          <button name="_next" class="btn btn-primary submit" value="//brandsterinc.com/design-center/thankyou.html" type="submit" style="width: 100%; height: 50px; margin-top: 30px;">Receive My Quote</button>
+		        </form>
             </div>
             
         </div>
