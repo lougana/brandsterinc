@@ -102,7 +102,7 @@
 /* START WHAT WE OFFER SECTION */
 
 #services {
-  background-image: url(../images/whatweoffer-bg.jpg);
+  background-color: #00a1df;
 }
 #services h3, #services h1 {
   color: white;
@@ -159,13 +159,24 @@
   padding-bottom: 60px;
 }
 .couponContainer img {
-  width: 100%;
+  height: 333px;
+  display: block;
+  margin: 0 auto;
 }
-.storeCoupon__book h2 {
+.couponContainer img:nth-last-child(1){
+  position: absolute;
+  bottom: 20px;
+  right: -50px;
+  height: auto;
+  width: 50%;
+  z-index: 100;
+}
+#storeCoupons h2 {
   text-align: center;
   font-weight: bold;
   font-size: 46px;
   color: #337ab7;
+  padding:50px 0px;
 }
 
 /* End Coupon Code Section */
@@ -200,9 +211,6 @@
   font-size: 22px;
   font-weight: bold;
 }
-#storeCoupons .col-md-6:nth-last-child(1) {
-  padding-top: 28%;
-}
 
 /* End Coupon Form Section */
 
@@ -229,5 +237,11 @@
 @media (max-width: 767px) {
   #banner .banner-left {
     margin-top: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .couponContainer img:nth-last-child(1) {
+    display: none;
   }
 }

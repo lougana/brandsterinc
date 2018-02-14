@@ -242,7 +242,7 @@ textarea{
 }
 #content{
 	padding-top:20px;
-	padding-bottom:50px;
+	padding-bottom:0px;
 	background-color:#fff;
 }
 #content p{
