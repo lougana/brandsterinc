@@ -92,7 +92,8 @@
 .makeSimple__lead {
   font-weight: bold;
   color: red;
-  font-size: 52px;
+  line-height: 86px;
+  font-size: 64px;
 }
 /* End Make Simple Section*/
 
