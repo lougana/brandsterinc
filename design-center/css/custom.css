@@ -13,6 +13,9 @@
 .navbar {
   margin-bottom: 0px;
 }
+.navbar-brand {
+  z-index: 99;
+}
 .lead-text {
   font-size: 44px;
   font-weight: bold;
@@ -260,5 +263,6 @@
 @media (max-width: 991px) {
   .couponContainer img:nth-last-child(1) {
     display: none;
-  }
 }
+
+
