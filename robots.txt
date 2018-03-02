@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /sass/
+Disallow: /php/
+Disallow: /coming-soon.html
+Disallow: /package-lock.json
+Disallow: /package.json
+Disallow: /node_modules/
+Disallow: /js
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /design-center/build/
+Disallow: /design-center/css/
+Disallow: /design-center/dev/
+Disallow: /design-center/fonts
+Disallow: /design-center/sass/
+Disallow: /design-center/scripts/
+Disallow: /design-center/mail.php
